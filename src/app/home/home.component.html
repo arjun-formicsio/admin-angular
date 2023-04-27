@@ -1,0 +1,7 @@
+<div class="container">
+  <header class="jumbotron">
+    <p *ngIf="user > 0">Tota User {{ user }}</p>
+    <a routerLink="/user" *ngIf="user > 0">View User</a>
+    <p *ngIf="user == 0"> No User Found</p>
+  </header>
+</div>
